@@ -1,54 +1,55 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 #include "contactos.h"
 #include "buscarContacto.h"
 
 int opcion, telefono;
-char nombre, email;
+char nombre[50], email[50];
 
 void buscarContacto(Contacto *contactos, int numContactos){
 
     printf("Seleccione: \n");
-    print("1. Búscar por nombre");
-    print("2. Búscar por email");
-    print("3. Búscar por telefono");
+    printf("1. Búscar por nombre");
+    printf("2. Búscar por email");
+    printf("3. Búscar por telefono");
 
     scanf("%d", &opcion);
+    while(getchar() != '\n');
 
-    if(opcion == 1){
-        printf("\n Ingrese el nombre a buscar");
-        scanf("%c", &nombre);
-        porNombre(nombre);
-    }
+    switch (opcion){
 
-    if(opcion == 2){
-        printf("\n Ingrese el email a buscar");
-        scanf("%c", &email);
-        porEmail(email);
-    }
-
-    if(opcion == 3){
-        printf("\n Ingrese el telefono a buscar");
-        scanf("%d", &telefono);
-        porNombre(telefono);
-    }
-
-    else{
-        printf("\n opción no valida.")
-    }
+        case 1:
+            printf("\n Ingrese el nombre a buscar");
+            scanf("%s", nombre);
+            
+            for (int i = 0; i < numContactos; i++){
+                if (strcmp(contactos[i].nombre, nombre) == 0){
+                    printf("Contacto encontrado exitosamente.");
+                    printf("Nombre: %s\n", contactos[i].nombre);
+                    printf("Email: %s\n", contactos[i].email);
+                    printf("Telefono: %d\n", (int)contactos[i].telefono);
+                }
+            }
+        break;
 
 
+        case 2:
+            printf("\n Ingrese el email a buscar");
+            scanf("%s", email);
+        break;
 
-    void porNombre(char nombre){
-        
-    }
 
-    void porEmail(char email){
+        case 3:
+            printf("\n Ingrese el telefono a buscar");
+            scanf("%d", &telefono);
+        break;
+    
 
-    }
+    default:
+    printf("\n opcion no valida.\n");
 
-    void porTelefono(char telefono){
-
+        break;
     }
 }
