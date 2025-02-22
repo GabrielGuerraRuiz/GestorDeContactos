@@ -32,8 +32,10 @@ int main() {
             default:
                 printf("Opcion no valida.\n");
         }
+        
     } while (opcion != 0);
 
     free(contactos); // Liberar memoria al final
     return 0;
+
 }
