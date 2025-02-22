@@ -2,6 +2,7 @@
 #include "contactos.c"
 
 #include "buscarContacto.h"
+#include "buscarContacto.c"
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -21,7 +22,7 @@ int main() {
             
             // Buscar contacto
             case 3:
-                //buscarContacto(contactos, 0);
+                buscarContacto(contactos, 0);
 
             // Salir del programa
             case 0:
