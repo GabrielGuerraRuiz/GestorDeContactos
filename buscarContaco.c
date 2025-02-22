@@ -44,11 +44,11 @@ void buscarContacto(Contacto *contactos, int numContactos){
         
     }
 
-    void porEmail(char Email){
+    void porEmail(char email){
 
     }
 
-    void porTelefono(char Telefono){
+    void porTelefono(char telefono){
 
     }
 }
