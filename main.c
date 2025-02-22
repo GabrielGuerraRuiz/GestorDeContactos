@@ -5,6 +5,7 @@
 
 int main() {
     Contacto *contactos = NULL;
+    int numContactos = 0;
     int opcion;
 
     do {
@@ -15,6 +16,29 @@ int main() {
 
         // TODO: Agregar las funciones en el switch dependiendo del menu.
         switch(opcion) {
+            case 1:
+                // Implementar agregarContacto()
+                break;
+            case 2:
+                // Implementar mostrarContactos()
+                break;
+            case 3:
+                // Implementar buscarContacto()
+                break;
+            case 4: {
+                char nombre[100];
+                printf("Ingrese el nombre del contacto a eliminar: ");
+                fgets(nombre, sizeof(nombre), stdin);
+                nombre[strcspn(nombre, "\n")] = '\0';
+                eliminarContacto(&contactos, &numContactos, nombre);
+                break;
+            }
+            case 5:
+                // Implementar guardarContactos()
+                break;
+            case 6:
+                // Implementar cargarContactos()
+                break;
             case 0:
                 printf("Saliendo...\n");
                 break;
