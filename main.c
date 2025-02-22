@@ -1,5 +1,8 @@
 #include "contactos.h"
 #include "contactos.c"
+
+#include "buscarContacto.h"
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -15,9 +18,16 @@ int main() {
 
         // TODO: Agregar las funciones en el switch dependiendo del menu.
         switch(opcion) {
+            
+            // Buscar contacto
+            case 3:
+                buscarContacto();
+
+            // Salir del programa
             case 0:
                 printf("Saliendo...\n");
                 break;
+
             default:
                 printf("Opcion no valida.\n");
         }
