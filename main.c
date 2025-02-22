@@ -21,7 +21,7 @@ int main() {
             
             // Buscar contacto
             case 3:
-                buscarContacto();
+                buscarContacto(contactos, 0);
 
             // Salir del programa
             case 0:
