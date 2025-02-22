@@ -78,6 +78,7 @@ void buscarContacto(Contacto *contactos, int numContactos){
                 
             }
             */
+           
         break;
     
 
