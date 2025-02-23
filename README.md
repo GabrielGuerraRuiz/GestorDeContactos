@@ -33,7 +33,7 @@ gcc main.c contactos.c -o gestor_contactos
 
 ## Para ejecutar el programa
 
-
-./gestor_contactos
+```sh
+./gestor_contactos ```
 
 
