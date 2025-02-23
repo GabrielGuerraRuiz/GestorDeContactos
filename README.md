@@ -29,10 +29,11 @@ Para compilar el programa, utiliza el siguiente comando:
 
 ```sh
 gcc main.c contactos.c -o gestor_contactos
+```
 
 ## Para ejecutar el programa
 
-```sh
+
 ./gestor_contactos
 
 
