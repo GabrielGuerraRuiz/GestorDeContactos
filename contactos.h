@@ -13,5 +13,6 @@ typedef struct
 } Contacto;
 
 void mostrarMenu();
+void eliminarContacto();
 
 #endif
