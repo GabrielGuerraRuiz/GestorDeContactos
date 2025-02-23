@@ -23,8 +23,9 @@ int main() {
                 // Implementar mostrarContactos()
                 break;
             case 3:
-                // Implementar buscarContacto()
+                buscarContacto(contactos, 0);
                 break;
+            
             case 4: {
                 char nombre[100];
                 printf("Ingrese el nombre del contacto a eliminar: ");
@@ -32,6 +33,7 @@ int main() {
                 nombre[strcspn(nombre, "\n")] = '\0';
                 eliminarContacto(&contactos, &numContactos, nombre);
                 break;
+              
             }
             case 5:
                 // Implementar guardarContactos()
