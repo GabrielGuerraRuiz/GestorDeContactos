@@ -23,7 +23,7 @@ int main() {
                 // Implementar mostrarContactos()
                 break;
             case 3:
-                buscarContacto(contactos, 0);
+                buscarContacto(contactos, numContactos);
                 break;
             
             case 4: {
