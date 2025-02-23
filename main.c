@@ -17,7 +17,7 @@ int main() {
         // TODO: Agregar las funciones en el switch dependiendo del menu.
         switch(opcion) {
             case 1:
-                // Implementar agregarContacto()
+                agregarContacto(&contactos, &numContactos);
                 break;
             case 2:
                 // Implementar mostrarContactos()
