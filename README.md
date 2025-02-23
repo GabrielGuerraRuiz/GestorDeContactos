@@ -22,6 +22,15 @@ Este es un programa en C para gestionar contactos, con funcionalidades para agre
 
 Para compilar el programa en el cmd, utiliza el siguiente comando:
 
-## Para ejecutar el programa
+
+## Instrucciones para Compilar y Ejecutar
+
+Para compilar el programa, utiliza el siguiente comando:
+
+```sh
 gcc main.c contactos.c -o gestor_contactos
+
+## Para ejecutar el programa
+./gestor_contactos
+
 
