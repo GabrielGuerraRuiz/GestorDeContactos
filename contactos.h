@@ -13,6 +13,7 @@ typedef struct
 } Contacto;
 
 void mostrarMenu();
-void eliminarContacto();
+void eliminarContacto(Contacto **contactos, int *numContactos, const char *nombre);
+void buscarContacto(Contacto *contactos, int numContactos);
 
 #endif
