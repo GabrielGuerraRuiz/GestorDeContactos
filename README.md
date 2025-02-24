@@ -64,7 +64,7 @@ Si lo encuentra:<br>
 Recorre los contactos para sobrescribir la posición eliminada.
 Reduce numContactos.
 Usa **realloc()** para redimensionar la memoria.
-Si no lo encuentra, imprime ```sh "Contacto no encontrado"```.
+Si no lo encuentra, imprime **"Contacto no encontrado"**.
 
 ## Instrucciones para Compilar y Ejecutar
 
