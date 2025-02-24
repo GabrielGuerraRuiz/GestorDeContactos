@@ -1,7 +1,15 @@
 # GestorDeContactos
 # Indice
+- [Descripción del proyecto](#descripcion_del_proyecto)
 - [Archivos](#archivos)
+- [Funcionalidades](#funcionalidades)
+- [Uso](#uso)
+- [Instrucciones para Compilar y Ejecutar](##instrucciones_para_compilar_y_ejecutar)
+- Capturas de pantalla del programa nen funcionamiento
+- Enlace al tablero de Microsoft Planner
 
+
+## Descripción del proyecto
 
 Este es un programa en C para gestionar contactos, con funcionalidades para agregar, mostrar, buscar y eliminar contactos.<p>
 El Gestor de Contactos es una aplicación de línea de comandos que permite a los usuarios gestionar una lista de contactos.<br> 
@@ -80,12 +88,11 @@ gcc main.c contactos.c -o gestor_contactos
 Para ejecutar el programa
 
 ```sh
-
-[probando]
-
 ./gestor_contactos
 ```
 
+## Capturas de pantalla del programa nen funcionamiento
 
-[probando]
+
+## Enlace al tablero de Microsoft Planner
 
