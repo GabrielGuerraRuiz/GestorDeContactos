@@ -56,12 +56,12 @@ void eliminarContacto(Contacto **contactos, int *numContactos, const char *nombr
     }
 }
 ```
- Elimina un contacto en base a su nombre.
+ Elimina un contacto con base a su nombre.<p>
 Pasos:<p>
 
 Busca el contacto por nombre en el arreglo.
 Si lo encuentra:<br>
-Recorre los contactos para sobrescribir la posición eliminada.
+Recorre los contactos para sobrescribir la posición eliminada.<p>
 Reduce numContactos.
 Usa **realloc()** para redimensionar la memoria.
 Si no lo encuentra, imprime **"Contacto no encontrado"**.
