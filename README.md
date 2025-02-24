@@ -77,6 +77,9 @@ gcc main.c contactos.c -o gestor_contactos
 Para ejecutar el programa
 
 ```sh
+
+[probando]
+
 ./gestor_contactos
 ```
 
