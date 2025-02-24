@@ -21,8 +21,20 @@ Las funcionalidades incluyen agregar nuevos contactos, mostrar todos los contact
 7. **Salir**: Salir del programa.
 
 ## Uso
-
-
+Este código es la implementación de las funciones declaradas en contactos.h.
+```sh
+void mostrarMenu() {
+    printf("\n--- Gestor de Contactos ---\n");
+    printf("1. Agregar contacto\n");
+    printf("2. Mostrar contactos\n");
+    printf("3. Buscar contacto\n");
+    printf("4. Eliminar contacto\n");
+    printf("5. Guardar contactos\n");
+    printf("6. Cargar contactos\n");
+    printf("0. Salir\n");
+}
+```
+Muestra un menú con opciones del programa.
 
 ## Instrucciones para Compilar y Ejecutar
 
