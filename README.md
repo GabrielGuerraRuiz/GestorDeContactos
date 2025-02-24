@@ -61,8 +61,8 @@ Pasos:<p>
 
 Busca el contacto por nombre en el arreglo.
 Si lo encuentra:<br>
-Recorre los contactos para sobrescribir la posición eliminada.<p>
-Reduce numContactos.
+Recorre los contactos para sobrescribir la posición eliminada.<br>
+Reduce numContactos.<br>
 Usa **realloc()** para redimensionar la memoria.
 Si no lo encuentra, imprime **"Contacto no encontrado"**.
 
