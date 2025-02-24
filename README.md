@@ -1,10 +1,13 @@
 # GestorDeContactos
+# Indice
+#archivos
+
 
 Este es un programa en C para gestionar contactos, con funcionalidades para agregar, mostrar, buscar y eliminar contactos.<p>
 El Gestor de Contactos es una aplicación de línea de comandos que permite a los usuarios gestionar una lista de contactos.<br> 
 Las funcionalidades incluyen agregar nuevos contactos, mostrar todos los contactos, buscar un contacto específico por su nombre y eliminar contactos. También permite guardar y cargar contactos desde un archivo, lo que facilita la persistencia de los datos.
 
-## Archivos
+## [Archivos](archivos) 
 
 - `contactos.h`: Archivo de cabecera que contiene la definición de la estructura `Contacto` y las declaraciones de las funciones.
 - `contactos.c`: Archivo de implementación que contiene las definiciones de las funciones.
