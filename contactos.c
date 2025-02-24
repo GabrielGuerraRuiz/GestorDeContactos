@@ -117,3 +117,26 @@ void buscarContacto(Contacto *contactos, int numContactos){
         break;
     }
 }
+
+
+//Funcion para agregar un contacto
+void agregarContacto(Contacto **contactos, int *numContactos) {
+    //Redimensionar el arreglo dinamico para agregar un nuevo contacto
+    *contactos = realloc(*contactos, (*numContactos + 1) * sizeof(Contacto));
+    if (*contactos == NULL){
+        printf("Error al asignar memoria.\n");
+        return;
+    }
+
+    printf("Ingrese el nombre: ");
+    scanf(" %[^\n]", (*contactos)[*numContactos].nombre);
+
+    printf("Ingrese el teléfono: ");
+    scanf(" %[^\n]", (*contactos)[*numContactos].telefono);
+
+    printf("Ingrese el email: ");
+    scanf(" %[^\n]", (*contactos)[*numContactos].email);
+
+    (*numContactos)++; //Incrementa el contador de contactos
+    printf("Contacto agregado exitosamente.\n");
+}
