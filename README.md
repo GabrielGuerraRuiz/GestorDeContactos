@@ -4,7 +4,7 @@
 - [Archivos](#archivos)
 - [Funcionalidades](#funcionalidades)
 - [Uso](#uso)
-- [Instrucciones para Compilar y Ejecutar](##instrucciones_para_compilar_y_ejecutar)
+- [Instrucciones para Compilar y Ejecutar](#instrucciones_para_compilar_y_ejecutar)
 - Capturas de pantalla del programa nen funcionamiento
 - Enlace al tablero de Microsoft Planner
 
