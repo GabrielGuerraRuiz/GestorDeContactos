@@ -6,7 +6,7 @@
 - [Uso](#uso)
 - [Instrucciones para Compilar y Ejecutar](#instrucciones_para_compilar_y_ejecutar)
 - Capturas de pantalla del programa nen funcionamiento
-- Enlace al tablero de Microsoft Planner
+- [Enlace al tablero de Microsoft Planner](#enlace_al_tablero_de_microsoft_planner)
 
 
 ## Descripción del proyecto
