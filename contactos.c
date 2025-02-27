@@ -118,7 +118,21 @@ void buscarContacto(Contacto *contactos, int numContactos){
     }
 }
 
-
+// Funcion para Mostrar todos los contactos
+void mostrarContacto(Contacto contactos[], int numContactos) {
+    if (numContactos == 0) {
+        printf("No hay contactos registrados.\n");
+        return;
+    }
+    printf("\nLista de contactos registrados:\n");
+    printf("------------------------------------------------------------\n");
+    for (int i = 0; i < numContactos; i++) {
+        printf("Nombre: %s %s\n", contactos[i].nombre);
+        printf("Teléfono: %s\n", contactos[i].telefono);
+        printf("Email: %s\n", contactos[i].email);
+        printf("------------------------------------------------------------\n");
+    }
+}
 //Funcion para agregar un contacto
 void agregarContacto(Contacto **contactos, int *numContactos) {
     //Redimensionar el arreglo dinamico para agregar un nuevo contacto

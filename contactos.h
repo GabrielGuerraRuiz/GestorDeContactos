@@ -16,5 +16,6 @@ void mostrarMenu();
 void eliminarContacto(Contacto **contactos, int *numContactos, const char *nombre);
 void buscarContacto(Contacto *contactos, int numContactos);
 void agregarContacto(Contacto **contactos, int *numContactos);
+void mostrarContacto(Contacto *contactos, int *numContactos);
 
 #endif
