@@ -20,7 +20,7 @@ int main() {
                 agregarContacto(&contactos, &numContactos);
                 break;
             case 2:
-                // Implementar mostrarContactos()
+                mostrarContacto(contactos, numContactos);
                 break;
             case 3:
                 buscarContacto(contactos, numContactos);
