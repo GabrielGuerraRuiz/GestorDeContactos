@@ -96,4 +96,4 @@ Para ejecutar el programa
 
 ## Enlace al tablero de Microsoft Planner
 
-	[[Google](https://planner.cloud.microsoft/webui/v1/plan/4dXitw1AWECA3V9oQHzpeGQABRYp?tid=f94bf4d9-8097-4794-adf6-a5466ca28563)](https://planner.cloud.microsoft/webui/v1/plan/4dXitw1AWECA3V9oQHzpeGQABRYp?tid=f94bf4d9-8097-4794-adf6-a5466ca28563) 
+https://planner.cloud.microsoft/webui/v1/plan/4dXitw1AWECA3V9oQHzpeGQABRYp?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
