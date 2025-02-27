@@ -94,17 +94,17 @@ void buscarContacto(Contacto *contactos, int numContactos){
         case 3:
             printf("\n Ingrese el telefono a buscar: ");
             scanf("%d", &telefono);
-            int exito = 0;
+            exito = 0;
+
             for (int i = 0; i < numContactos; i++){
-                if (contactos[i].telefono == telefono){
+                if ((int)contactos[i].telefono == telefono){
                     printf("   Contacto encontrado exitosamente.");
                     printf("\n  Nombre: %s\n", contactos[i].nombre);
                     printf("\n  Email: %s\n", contactos[i].email);
                     printf("\n  Telefono: %d\n", (int)contactos[i].telefono);
                     exito = 1;
-                }
+                }   
             }
-
             if(exito == 0){
                 printf("\n  Datos no encontrados.\n\n");
             }
