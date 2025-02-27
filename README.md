@@ -6,7 +6,7 @@
 - [Uso](#uso)
 - [Instrucciones para Compilar y Ejecutar](#instrucciones_para_compilar_y_ejecutar)
 - Capturas de pantalla del programa nen funcionamiento
-- Enlace al tablero de Microsoft Planner
+- [Enlace al tablero de Microsoft Planner](#enlace_al_tablero_de_microsoft_planner)
 
 
 ## Descripción del proyecto
@@ -96,3 +96,4 @@ Para ejecutar el programa
 
 ## Enlace al tablero de Microsoft Planner
 
+https://planner.cloud.microsoft/webui/v1/plan/4dXitw1AWECA3V9oQHzpeGQABRYp?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
